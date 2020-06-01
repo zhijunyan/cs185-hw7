@@ -3,6 +3,10 @@ import Home from './Home'
 import Images from './Images'
 import Videos from './Videos'
 import Projects from './Projects'
+import Forms from './Form'
+import Movies from './Movies'
+import Add from './add_movie'
+import Create from './create_list'
 
 
 export class Body extends Component{
@@ -16,8 +20,21 @@ export class Body extends Component{
 
 		else if (activeTab==3)
 			return <Videos/>
-		else
+
+		else if (activeTab==4)
 			return <Projects/>
+
+		else if (activeTab==5)
+			return <Movies/>
+
+		else if (activeTab==6)
+			return <Add/>
+
+		else if (activeTab==7)
+			return <Create/>
+
+		else
+			return <Forms/>
 		
 	}
   render(){

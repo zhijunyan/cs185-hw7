@@ -42,6 +42,26 @@ export class App extends Component{
     {
       id:4,
       title: 'Projects'
+    },
+
+    {
+      id:5,
+      title: 'Movies'
+    },
+
+    {
+      id:6,
+      title: 'Add Movie'
+    },
+
+    {
+      id:7,
+      title: 'Create List'
+    },
+    
+    {
+      id:8,
+      title: 'Form'
     }
 
     ]
